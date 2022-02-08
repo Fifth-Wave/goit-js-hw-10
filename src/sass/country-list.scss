@@ -1,0 +1,22 @@
+.country-list {
+  list-style-type: none;
+  font-size: 18px;
+  padding-left: 0;
+
+  .country-item {
+    margin-bottom: 20px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+  .country {
+    display: flex;
+    align-items: center;
+  }
+
+  .flag {
+    display: block;
+    margin-right: 5px;
+  }
+}
